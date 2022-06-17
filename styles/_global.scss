@@ -8,3 +8,17 @@
 body {
     background-color: $color_white;
 }
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section-title {
+    font-size: $h2_font_size;
+    font-weight: 600;
+    color: $color_black;
+}

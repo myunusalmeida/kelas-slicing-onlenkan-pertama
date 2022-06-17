@@ -1,0 +1,19 @@
+.navigasi-bar {
+    background-color: #F1F1F1;
+
+    .line {
+        width: 1px;
+        height: 10px;
+        background-color: $color_black;
+    }
+
+    @media screen and (max-width: 768px) {
+        .menus {
+            flex-wrap: wrap;
+
+            .menu {
+                margin-top: 20px;
+            }
+        }
+    }
+}

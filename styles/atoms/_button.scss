@@ -1,0 +1,12 @@
+.btn-white {
+    background-color: #FFFFFF;
+
+    &:hover {
+        background-color: #FFFFFF;
+    }
+}
+
+.btn-outline-orange {
+    border: 1px solid $color_orange;
+    color: $color_orange;
+}

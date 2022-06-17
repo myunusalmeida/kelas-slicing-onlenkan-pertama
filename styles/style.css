@@ -10,4 +10,78 @@
 body {
   background-color: #FFFFFF;
 }
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #0A0A0A;
+}
+
+.btn-white {
+  background-color: #FFFFFF;
+}
+
+.btn-white:hover {
+  background-color: #FFFFFF;
+}
+
+.btn-outline-orange {
+  border: 1px solid #FF8A00;
+  color: #FF8A00;
+}
+
+.navigasi-bar {
+  background-color: #F1F1F1;
+}
+
+.navigasi-bar .line {
+  width: 1px;
+  height: 10px;
+  background-color: #0A0A0A;
+}
+
+@media screen and (max-width: 768px) {
+  .navigasi-bar .menus {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .navigasi-bar .menus .menu {
+    margin-top: 20px;
+  }
+}
+
+.header {
+  background-image: url("../images/header-background.png");
+  height: 420px;
+  padding-top: 40px;
+}
+
+.header .header-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0A0A0A;
+}
+
+.header .header-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #0A0A0A;
+  margin-bottom: 20px;
+}
+
+.header .header-title span {
+  color: #FF8A00;
+}
+
+.header .header-description {
+  color: #4F4F4F;
+}
 /*# sourceMappingURL=style.css.map */

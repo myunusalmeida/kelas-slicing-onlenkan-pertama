@@ -1,0 +1,26 @@
+.header {
+    background-image: url('../images/header-background.png');
+    height: 420px;
+    padding-top: 40px;
+
+    .header-subtitle {
+        font-size: $font_size_small;
+        font-weight: 600;
+        color: $color_black;
+    }
+
+    .header-title {
+        font-size: $h1_font_size;
+        font-weight: 700;
+        color: $color_black;
+        margin-bottom: 20px;
+
+        span {
+            color: $color_orange;
+        }
+    }
+
+    .header-description {
+        color: $color_paragraph;
+    }
+}
