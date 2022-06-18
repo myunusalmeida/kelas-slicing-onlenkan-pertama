@@ -1,0 +1,20 @@
+footer {
+    background-color: $color_black;
+    padding: 50px 0;
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-title {
+        font-size: $h4_font_size + 2px;
+        color: $color_white;
+        margin-bottom: 20px;
+    }
+
+    .footer-description {
+        color: #D9D9D9;
+        font-size: $h5_font_size;
+        font-weight: 400;
+    }
+}

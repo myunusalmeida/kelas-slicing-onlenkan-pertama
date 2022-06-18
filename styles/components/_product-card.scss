@@ -1,0 +1,20 @@
+.product-card {
+    .card-img-top {
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-size: $h4_font_size + 2px;
+        font-weight: 500;
+        color: $color_black;
+    }
+
+    @media screen and (max-width: 768px) {
+        .card-img-top {
+            height: 220px;
+        }
+    }
+}

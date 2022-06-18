@@ -1,3 +1,14 @@
+.main-menu {
+    overflow-x: auto;
+    padding: 50px 20px;
+
+    @media screen and (max-width: 768px) {
+        .d-flex {
+            justify-content: start !important;
+        }
+    }
+}
+
 .header {
     background-image: url('../images/header-background.png');
     height: 420px;
@@ -22,5 +33,20 @@
 
     .header-description {
         color: $color_paragraph;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: max-content;
+        padding: 50px 20px;
+        background-position: center;
+
+        .header-title {
+            font-size: $h2_font_size;
+        }
+
+        .px-5 {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
     }
 }
